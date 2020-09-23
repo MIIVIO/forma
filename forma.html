@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+	<title>A survey form</title>
+</head>
+<body>
+	<h1>Survey Form</h1>
+	<div class="content">
+		<p>Let us know how we can improve freedCodeCamp</p>
+
+		<form method="GET">
+			<ul>
+				
+				<li><label for="name">Name:</label> 
+					<input class="nea" type="text" name="name" placeholder="Enter your name">
+				</li>
+				
+				<li><label for="email" id="email">Email:</label> 
+					<input class="nea" type="email" name="email" placeholder="Enter your Email">
+				</li>
+				
+				<li><label for="Age" id="age">Age:</label> 
+					<input  class="nea" type="number" name="Age" placeholder="Age">
+				</li>
+
+			</ul>
+
+				<label class="text">Which option best describes your current role?</label>
+			
+			<select name="Student">
+				 
+				 <option value="student" name="student">Student</option>
+				 <option value="plodder" name="plodder">Plodder</option>
+
+			</select><br>
+
+			
+			
+
+			<ul class="ul">
+				<li>
+					<label>How likely is that you would recommend
+						<input type="radio" name="Definitely" value="Definitely" class="radio">
+						
+						<label for="Definitely">Definitely</label><br>
+						<label class="pod"> freeCodeCamp to a friend?
+							<input type="radio" name="Maybe" value="Maybe" class="radio">
+						<label for="Maybe">Maybe</label></label></label><br>
+
+						<input type="radio" name="Not sure" value="Not sure" id="radio"><label for="Not sure">Not sure</label>
+				</li>
+			</ul>
+			
+			
+			
+			
+
+
+
+			<div id="down">
+				<label id="fcc">What do you like most in FCC:</label>
+				<select id="sel">
+					<option value="Select" name="Select">Select an option</option>
+				</select><br>
+			</div>
+			
+			<label id="lab">Things that should be improved in the future<input  class="front" type="checkbox" name="Front"><label>Front-end Projects</label><br>
+			<label id="lab2">(Check all that apply):<label></label>
+			<input class="back" type="checkbox" name="Back"><label>Back-end Projects</label><br>
+			<input class="data" type="checkbox" name="Data"><label>Data Visialization</label>
+		
+		</form>
+
+		<hr>
+		<footer> Written and coded by <a href="https://s3.amazonaws.com/freecodecamp/camper-image-placeholder.png">MIlVIO</a></footer>
+	</div>
+</body>
+</html>

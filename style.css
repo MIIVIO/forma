@@ -1,0 +1,122 @@
+body {
+	background-color: #A9D7D1;
+	font-family: 'Pompiere', cursive;
+	font-size: 18px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 150;
+}
+
+.content {
+	/*border: 5px solid black;*/
+	border-radius: 10px;
+	background-color: #FAFAFA;
+	height: 600px;
+	width: 800px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 8px; 
+}
+
+label {
+	margin-right: 15px;
+}
+
+
+ul {
+	margin-left: 300px;
+}
+
+#email {
+	margin-right: 17px;
+}
+
+#age {
+	margin-right: 26px;
+}
+
+.nea {
+	padding: 3px 50px 3px 2px;
+	margin-bottom: 15px;
+	/*border-radius: 2px;*/
+	/*border-*/color: #D2D2D2;
+}
+
+.text {
+	margin-left: 120px;
+}
+
+select{
+	
+	padding:3px 45px 3px 2px;
+	color: black;
+	background-color: #F0F0F0;
+}
+
+/*оформление выбора Definitly...*/
+.ul {
+	margin-left:112px;
+}
+
+.pod {
+	margin-left: 70px;
+}
+
+.radio {
+	margin-left: 23px;
+}
+
+#radio {
+	margin-left: 241px;
+}
+/*Конец*/
+
+/*Оформление What do you like most in FCC:*/
+#fcc {
+	margin-left: 212px;
+}
+
+#sel {
+	padding:3px 1px 3px 2px;
+}
+
+#down {
+	margin-bottom: 35px;
+}
+/*Конец*/
+
+/*Оформление checkbox*/
+#lab{
+	margin-left: 135px;
+}
+
+#lab2 {
+	margin-left: 252px;
+}
+
+.front {
+	margin-left: 20px;
+}
+
+.back {
+	margin-left: 0px;
+}
+
+.data {
+	margin-left: 392px;
+	margin-bottom: 90px;
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	text-decoration: none;
+}
